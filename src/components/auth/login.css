@@ -1,0 +1,128 @@
+.loginBody {
+    font-family: Poppins, Helvetica, sans-serif;
+    background: url(../../assets/05.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+input.auth {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    background: 0;
+    border: 2px #fff solid;
+    padding-left: 8px;
+    color: #fff;
+    font-size: 16px
+}
+
+input.auth-submit {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    opacity: 0.8;
+    border: 0;
+    padding-right: 5px;
+    color: #0e3b67;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.register {
+    color: #fff
+}
+
+.headline {
+    color: #fff !important;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 2em auto 1em auto;
+    padding: 0 0 0 0;
+    text-align: center
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 16px
+}
+
+.headline span {
+    display: block;
+    border: 2px solid #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 50%;
+    margin: 35px auto;
+}
+
+.headd {
+    height: 135px;
+    background: rgba(17, 17, 17, 0.61);
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo img {
+    margin-top: 20px;
+}
+
+.logo {
+    display: block;
+    ;
+}
+
+.headline span:before {
+    content: ' ';
+    width: 140px;
+    height: 2px;
+    right: 251%;
+    background: #fff;
+    position: absolute;
+    top: 45%;
+}
+
+.headline span:after {
+    content: ' ';
+    width: 140px;
+    height: 2px;
+    left: 251%;
+    background: #fff;
+    position: absolute;
+    top: 45%;
+}
+
+.loginBody label {
+    color: #fff !important;
+}
+
+p {
+    color: #fff;
+    font-size: 14px
+}
+
+.select {
+    background: transparent;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+select option {
+    color: #111;
+}

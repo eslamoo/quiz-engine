@@ -1,0 +1,45 @@
+.pick {
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    background: url(../../assets/04.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.pickk {
+    background: #13B84D;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff !important;
+    position: relative;
+    top: 65px;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.pick .headline {
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 6em auto 1em auto;
+    padding: 0 0 0 0;
+}
+
+p {
+    color: #fff;
+    font-size: 23px;
+    margin: 20px 0
+}
