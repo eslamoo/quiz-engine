@@ -2,7 +2,7 @@
   "name": "quiz-engine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eslamoo.github.io/cbc-quiz-engine",
+  "homepage": "https://eslamoo.github.io/quiz-engine",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
